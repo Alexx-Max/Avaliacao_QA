@@ -1,0 +1,365 @@
+• ID do Caso
+TCC_LOGIN_VALIDO_01
+• Descrição
+Usuário efetua o login com email e senha corretos
+• Pré-condições
+Usuário deve acessar o site e ter as credencias válidas
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+• Dados de teste (valores de entrada)
+Email = standard_user e senha = secret_sauce
+• Resultado Esperado
+Login realizado com sucesso
+• Pós-condições
+Usuário autenticado na aplicação
+
+• ID do Caso
+TCC_LOGIN_COM_CAMPOS_VAZIOS_02
+• Descrição
+Usuário não preenche os campos e efetua o login
+• Pré-condições
+Usuário deve acessar o site
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário efetua login sem preencher os campos
+• Dados de teste (valores de entrada)
+deixar os campos vazios
+• Resultado Esperado
+Usuário deve permanecer na página inicial e uma mensagem exibindo "Epic sadface:
+Username is required"
+• Pós-condições
+Usuário deve permanecer na página inicial
+
+• ID do Caso
+TCC_LOGIN_COM_EMAIL_CERTO_E_SENHA_INCORRETA_03
+• Descrição
+Usuário preenche o email correto e senha incorreta e efetua o login
+• Pré-condições
+Usuário deve acessar o site
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário efetua login preenchendo o email correto e senha incorreta e efetua o login
+• Dados de teste (valores de entrada)
+Preencher os campos com email correto "standard_user" e senha incorreta
+• Resultado Esperado
+Usuário deve permanecer na página inicial e uma mensagem exibindo "Epic sadface:
+Username and password do not match any user in this service"
+• Pós-condições
+Usuário deve permanecer na página inicial
+
+• ID do Caso
+TCC_LOGIN_COM_EMAIL_INCORRETO_E_SENHA_CORRETO_04
+• Descrição
+Usuário preenche o email incorreto e senha correta e efetua o login
+• Pré-condições
+Usuário deve acessar o site
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário efetua login preenchendo o email incorreto e senha correta e efetua o login
+• Dados de teste (valores de entrada)
+Preencher os campos com email incorreto e senha correta "secret_sauce"
+• Resultado Esperado
+Usuário deve permanecer na página inicial e uma mensagem exibindo "Epic sadface:
+Username and password do not match any user in this service"
+• Pós-condições
+Usuário deve permanecer na página inicial
+
+• ID do Caso
+TCC_BOTAO_ADICIONAR_05
+• Descrição
+Usuário clica no botão adicionar ao carrinho
+• Pré-condições
+Usuário deve estar na página incial
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Usuário seleciona o produto e clica em adicionar ao carrinho
+• Dados de teste (valores de entrada)
+Selecionar algum produto
+• Resultado Esperado
+Produto adicionado ao carrinho com sucesso
+• Pós-condições
+Produto é exibido no carrinho
+
+• ID do Caso
+TCC_BOTAO_ADICIONAR_CARRINHO_NAO_FUNCIONA_06
+• Descrição
+Usuário clica em adicionar o produto ao carrinho e o botão não funciona
+• Pré-condições
+Usuário deve estar logado e na página do inicial
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica em adicionar um produto ao carrinho
+• Dados de teste (valores de entrada)
+Clicar adicionar um produto ao carrinho
+• Resultado Esperado
+O botão de adicionar não funciona, então nada é adicionado
+• Pós-condições
+Usuário permance na página de inicial e não tem alteração na quantidade de items no ícone de carrinho
+
+• ID do Caso
+TCC_CARRINHO_07
+• Descrição
+Usuário clica no ícone de carrinho e os produtos adicionados devem ser exibidos
+• Pré-condições
+Usuário deve estar logado e na página do inicial
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica no ícone do carrinho
+• Dados de teste (valores de entrada)
+Clicar no ícone de carrinho
+• Resultado Esperado
+Produtos adicionados exibidos no carrinho
+• Pós-condições
+Produtos adicionados são exibidos no carrinho
+
+• ID do Caso
+TCC_CARRINHO_VAZIO_08
+• Descrição
+Usuário clica em adicionar o produto ao carrinho e o carrinho permance vazio
+• Pré-condições
+Usuário deve estar logado e na página do inicial
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica em adicionar um produto ao carrinho
+5 - Usuário acessa o ícone de carrinho
+• Dados de teste (valores de entrada)
+Clicar adicionar um produto ao carrinho
+• Resultado Esperado
+Produtos não é exibido no carrinho
+• Pós-condições
+Produtos adicionados ao carrinho não são exibidos no carrinho
+
+
+
+• ID do Caso
+TCC_ORDENAR_ORDEM_ALFABÉTICA_09
+• Descrição
+Usuário clica no ícone de filtro e seleciona ordernar por nome A to Z e Z to A
+• Pré-condições
+Usuário deve estar logado e na página do inicial
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial,
+usuário clica no ícone de filtro e seleciona a opção de ordenar por nome A to Z ou Z to A
+• Dados de teste (valores de entrada)
+Clicar no ícone de filtro e selecionar a opçao ordenar por nome
+• Resultado Esperado
+Os produtos devem ser ordenados de acordo com a opção selecionada
+• Pós-condições
+Os produtos devem ser exibidos ordenados de acordo com a opção selecionada
+
+• ID do Caso
+TCC_ORDENAR_POR_PRECO_10
+• Descrição
+Usuário clica no ícone de filtro e seleciona ordernar por preço low to high e high to low
+• Pré-condições
+Usuário deve estar logado e na página do inicial
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial,
+usuário clica no ícone de filtro e seleciona a opção de ordenar por preço low to high e high to low
+• Dados de teste (valores de entrada)
+Clicar no ícone de filtro e selecionar a opçao ordenar por preço
+• Resultado Esperado
+Os produtos devem ser ordenados de acordo com a opção selecionada
+• Pós-condições
+Os produtos devem ser exibidos ordenados de acordo com a opção selecionada
+
+• ID do Caso
+TCC_CHECKOUT_11
+• Descrição
+Usuário clica em finalizar o produto preenchendo todos os campos corretamente
+• Pré-condições
+Usuário deve estar logado e na página do checkout
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica em adicionar um produto ao carrinho
+5 - Usuário acessa o ícone de carrinho
+6 - Usuário clica em checkout
+• Dados de teste (valores de entrada)
+Usuário prenche todos os campos completos
+• Resultado Esperado
+Uma mensagem de "Obrigado pelo seu pedido" deve ser exibida, indicando sucesso
+• Pós-condições
+Usuário permance na página de checkout
+
+• ID do Caso
+TCC_CHECKOUT_COM_NOME_12
+• Descrição
+Usuário clica em finalizar o produto preenchendo o campo nome e os outros campos deixando vazio
+• Pré-condições
+Usuário deve estar logado e na página do checkout
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica em adicionar um produto ao carrinho
+5 - Usuário acessa o ícone de carrinho
+6 - Usuário clica em checkout
+7 - Usuário preenche somente o nome e efetua o cadastro
+• Dados de teste (valores de entrada)
+Usuário prenche os somente o campo nome
+• Resultado Esperado
+Uma mensagem deve erro deve ser exibida informando "Error: Last Name is required"
+• Pós-condições
+Usuário permance na página de checkout
+
+• ID do Caso
+TCC_CHECKOUT_COM_ULTIMO_NOME_13
+• Descrição
+Usuário clica em finalizar o produto preenchendo o campo sobrenome e os outros campos deixando vazio
+• Pré-condições
+Usuário deve estar logado e na página do checkout
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica em adicionar um produto ao carrinho
+5 - Usuário acessa o ícone de carrinho
+6 - Usuário clica em checkout
+7 - Usuário preenche somente o sobrenome e efetua o cadastro
+• Dados de teste (valores de entrada)
+Usuário prenche os somente o campo sobrenome
+• Resultado Esperado
+Uma mensagem deve erro deve ser exibida informando "Error: First Name is required"
+• Pós-condições
+Usuário permance na página de checkout
+
+• ID do Caso
+TCC_CHECKOUT_COM_POSTAL_CODE_14
+• Descrição
+Usuário clica em finalizar o produto preenchendo o campo Postal Code e os outros campos deixando vazio
+• Pré-condições
+Usuário deve estar logado e na página do checkout
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica em adicionar um produto ao carrinho
+5 - Usuário acessa o ícone de carrinho
+6 - Usuário clica em checkout
+7 - Usuário preenche somente o Postal Code e efetua o cadastro
+• Dados de teste (valores de entrada)
+Usuário prenche os somente o campo Postal Code
+• Resultado Esperado
+Uma mensagem deve erro deve ser exibida informando "Error: First Name is required"
+• Pós-condições
+Usuário permance na página de checkout
+
+• ID do Caso
+TCC_CHECKOUT_COM_CARRINHO_VAZIO_15
+• Descrição
+Usuário clica em finalizar o produto sem ter nada no carrinho
+• Pré-condições
+Usuário deve estar logado e na página do checkout
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica no ícone do carrinho
+5 - Usuário clica no botão checkout e finaliza o pedido
+• Dados de teste (valores de entrada)
+Usuário prenche os campos do checkout
+• Resultado Esperado
+O pedido é finalizado com sucesso
+• Pós-condições
+Usuário permance na página de checkout
+
+• ID do Caso
+TCC_CHECKOUT_VAZIO_16
+• Descrição
+Usuário clica em finalizar o pedido sem ter preenchido os campos
+• Pré-condições
+Usuário deve estar logado e na página do checkout
+• Passos de execução (numerados)
+1 - Usuário acessa o Navegador
+2 - Usuário acessa o site Swag Labs
+3 - Usuário insere os dados corretos e efetua o login
+4 - Na página inicial, usuário clica no ícone do carrinho
+5 - Usuário clica no botão checkout e finaliza o pedido
+• Dados de teste (valores de entrada)
+Usuário não prenche os campos do checkout
+• Resultado Esperado
+Uma mensagem de erro deve ser exibida "Error: First Name is required"
+• Pós-condições
+Usuário permance na página de checkout
+
+
+TCC01_LOGIN_VALIDO
+A prioridade aqui seria baixo, pois o usuário consegue acessar o site sem nenhum problema
+
+TCC02_LOGIN_COM_CAMPOS_VAZIOS
+A prioridade é baixa,
+pois o site está se conportamento perfeitamente em não permitir o acesso sem as credencias
+
+TCC03_LOGIN_COM_EMAIL_CERTO_E_SENHA_INCORRETA
+A prioridade é baixa,
+pois o site está se conportamento perfeitamente em não permitir o acesso sem as credencias corretas
+
+TCC04_LOGIN_COM_EMAIL_INCORRETO_E_SENHA_CORRETO
+A prioridade é baixa,
+pois o site está se conportamento perfeitamente em não permitir o acesso sem as credencias corretas
+
+TCC05_BOTAO_ADICIONAR
+Prioridade baixa,
+pois a funcionalidade do botão está funcionando e o usuário pode adicionar seus produtos ao carrinho
+
+TCC06_BOTAO_ADICIONAR_CARRINHO_NAO_FUNCIONA
+Prioridade alta, o botão não funciona e o usuário não consegue adicionar seu produto ao carrinho.
+Gerando frustação do usuário e perda de dinheiro.
+
+TCC07_CARRINHO
+Prioridade baixa, o carrinho está funcionando perfeitamente.
+
+TCC08_CARRINHO_VAZIO
+Prioridade alta,
+usuário adiciona o produto ao carrinho e quando acessa o carrinho ele não consegue ver os produtos adicionados,
+gerando frustação e perda de dinheiro.
+
+TCC09_ORDENAR_ORDEM_ALFABÉTICA
+Prioridade baixa, a função está funcionando perfeitamente.
+
+TCC10_ORDENAR_POR_PRECO
+Prioridade baixa, a função está funcionando perfeitamente.
+
+TCC11_CHECKOUT
+Prioridade baixa, a função está funcionando perfeitamente.
+
+TCC12_CHECKOUT_COM_NOME
+Prioridade baixa, a função está funcionando perfeitamente.
+Não permite o usuário finalizar o pedido sem preencher os campos.
+
+TCC13_CHECKOUT_COM_ULTIMO_NOME
+Prioridade baixa, a função está funcionando perfeitamente.
+Não permite o usuário finalizar o pedido sem preencher os campos.
+
+TCC14_CHECKOUT_COM_POSTAL_CODE
+Prioridade baixa, a função está funcionando perfeitamente.
+Não permite o usuário finalizar o pedido sem preencher os campos.
+
+TCC15_CHECKOUT_COM_CARRINHO_VAZIO
+Prioridade baixa, por mais que função esteja finalizando o pedido com o carrinho vazio,
+não prejudica em nada nas vendas.
+
+TCC16_CHECKOUT_VAZIO
+Prioridade baixa, a função está funcionando perfeitamente.
+Não permite o usuário finalizar o pedido sem preencher os campos.
