@@ -18,6 +18,7 @@ O projeto segue o padrão **Page Object Model (POM)**, promovendo separação en
 * **BaseTest**: responsável pela configuração e gerenciamento do WebDriver
 
 ## Estrutura do projeto
+```
 src/
  ├── main/
  │    ├── java/
@@ -37,7 +38,7 @@ src/
  │
  ├── Resource/        # Driver do navegador
  └── Screenshots/     # Evidências de execução
-
+```
 ## Configuração do ambiente
 
 ### 1. Clonar o repositório
