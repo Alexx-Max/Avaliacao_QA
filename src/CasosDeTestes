@@ -1,5 +1,5 @@
 • ID do Caso
-TCC_LOGIN_VALIDO_01
+TCC01_LOGIN_VALIDO
 • Descrição
 Usuário efetua o login com email e senha corretos
 • Pré-condições
@@ -16,7 +16,7 @@ Login realizado com sucesso
 Usuário autenticado na aplicação
 
 • ID do Caso
-TCC_LOGIN_COM_CAMPOS_VAZIOS_02
+TCC02_LOGIN_COM_CAMPOS_VAZIOS
 • Descrição
 Usuário não preenche os campos e efetua o login
 • Pré-condições
@@ -34,7 +34,7 @@ Username is required"
 Usuário deve permanecer na página inicial
 
 • ID do Caso
-TCC_LOGIN_COM_EMAIL_CERTO_E_SENHA_INCORRETA_03
+TCC03_LOGIN_COM_EMAIL_CERTO_E_SENHA_INCORRETA
 • Descrição
 Usuário preenche o email correto e senha incorreta e efetua o login
 • Pré-condições
@@ -52,7 +52,7 @@ Username and password do not match any user in this service"
 Usuário deve permanecer na página inicial
 
 • ID do Caso
-TCC_LOGIN_COM_EMAIL_INCORRETO_E_SENHA_CORRETO_04
+TCC04_LOGIN_COM_EMAIL_INCORRETO_E_SENHA_CORRETO
 • Descrição
 Usuário preenche o email incorreto e senha correta e efetua o login
 • Pré-condições
@@ -70,7 +70,7 @@ Username and password do not match any user in this service"
 Usuário deve permanecer na página inicial
 
 • ID do Caso
-TCC_BOTAO_ADICIONAR_05
+TCC05_BOTAO_ADICIONAR
 • Descrição
 Usuário clica no botão adicionar ao carrinho
 • Pré-condições
@@ -88,7 +88,7 @@ Produto adicionado ao carrinho com sucesso
 Produto é exibido no carrinho
 
 • ID do Caso
-TCC_BOTAO_ADICIONAR_CARRINHO_NAO_FUNCIONA_06
+TCC06_BOTAO_ADICIONAR_CARRINHO_NAO_FUNCIONA
 • Descrição
 Usuário clica em adicionar o produto ao carrinho e o botão não funciona
 • Pré-condições
@@ -106,7 +106,7 @@ O botão de adicionar não funciona, então nada é adicionado
 Usuário permance na página de inicial e não tem alteração na quantidade de items no ícone de carrinho
 
 • ID do Caso
-TCC_CARRINHO_07
+TCC07_CARRINHO
 • Descrição
 Usuário clica no ícone de carrinho e os produtos adicionados devem ser exibidos
 • Pré-condições
@@ -124,7 +124,7 @@ Produtos adicionados exibidos no carrinho
 Produtos adicionados são exibidos no carrinho
 
 • ID do Caso
-TCC_CARRINHO_VAZIO_08
+TCC08_CARRINHO_VAZIO
 • Descrição
 Usuário clica em adicionar o produto ao carrinho e o carrinho permance vazio
 • Pré-condições
@@ -145,7 +145,7 @@ Produtos adicionados ao carrinho não são exibidos no carrinho
 
 
 • ID do Caso
-TCC_ORDENAR_ORDEM_ALFABÉTICA_09
+TCC09_ORDENAR_ORDEM_ALFABÉTICA
 • Descrição
 Usuário clica no ícone de filtro e seleciona ordernar por nome A to Z e Z to A
 • Pré-condições
@@ -164,7 +164,7 @@ Os produtos devem ser ordenados de acordo com a opção selecionada
 Os produtos devem ser exibidos ordenados de acordo com a opção selecionada
 
 • ID do Caso
-TCC_ORDENAR_POR_PRECO_10
+TCC10_ORDENAR_POR_PRECO
 • Descrição
 Usuário clica no ícone de filtro e seleciona ordernar por preço low to high e high to low
 • Pré-condições
@@ -183,7 +183,7 @@ Os produtos devem ser ordenados de acordo com a opção selecionada
 Os produtos devem ser exibidos ordenados de acordo com a opção selecionada
 
 • ID do Caso
-TCC_CHECKOUT_11
+TCC11_CHECKOUT
 • Descrição
 Usuário clica em finalizar o produto preenchendo todos os campos corretamente
 • Pré-condições
@@ -203,7 +203,7 @@ Uma mensagem de "Obrigado pelo seu pedido" deve ser exibida, indicando sucesso
 Usuário permance na página de checkout
 
 • ID do Caso
-TCC_CHECKOUT_COM_NOME_12
+TCC12_CHECKOUT_COM_NOME
 • Descrição
 Usuário clica em finalizar o produto preenchendo o campo nome e os outros campos deixando vazio
 • Pré-condições
@@ -224,7 +224,7 @@ Uma mensagem deve erro deve ser exibida informando "Error: Last Name is required
 Usuário permance na página de checkout
 
 • ID do Caso
-TCC_CHECKOUT_COM_ULTIMO_NOME_13
+TCC13_CHECKOUT_COM_ULTIMO_NOME
 • Descrição
 Usuário clica em finalizar o produto preenchendo o campo sobrenome e os outros campos deixando vazio
 • Pré-condições
@@ -245,7 +245,7 @@ Uma mensagem deve erro deve ser exibida informando "Error: First Name is require
 Usuário permance na página de checkout
 
 • ID do Caso
-TCC_CHECKOUT_COM_POSTAL_CODE_14
+TCC14_CHECKOUT_COM_POSTAL_CODE
 • Descrição
 Usuário clica em finalizar o produto preenchendo o campo Postal Code e os outros campos deixando vazio
 • Pré-condições
@@ -266,7 +266,7 @@ Uma mensagem deve erro deve ser exibida informando "Error: First Name is require
 Usuário permance na página de checkout
 
 • ID do Caso
-TCC_CHECKOUT_COM_CARRINHO_VAZIO_15
+TCC15_CHECKOUT_COM_CARRINHO_VAZIO
 • Descrição
 Usuário clica em finalizar o produto sem ter nada no carrinho
 • Pré-condições
@@ -285,7 +285,7 @@ O pedido é finalizado com sucesso
 Usuário permance na página de checkout
 
 • ID do Caso
-TCC_CHECKOUT_VAZIO_16
+TCC16_CHECKOUT_VAZIO
 • Descrição
 Usuário clica em finalizar o pedido sem ter preenchido os campos
 • Pré-condições
@@ -305,7 +305,7 @@ Usuário permance na página de checkout
 
 
 TCC01_LOGIN_VALIDO
-A prioridade aqui seria baixo, pois o usuário consegue acessar o site sem nenhum problema
+A prioridade aqui seria alta, pois se o usuário  não consegue acessar o site é um problema grave
 
 TCC02_LOGIN_COM_CAMPOS_VAZIOS
 A prioridade é baixa,
@@ -328,7 +328,7 @@ Prioridade alta, o botão não funciona e o usuário não consegue adicionar seu
 Gerando frustação do usuário e perda de dinheiro.
 
 TCC07_CARRINHO
-Prioridade baixa, o carrinho está funcionando perfeitamente.
+Prioridade alta, o usuário deve conseguir ver seus produtos.
 
 TCC08_CARRINHO_VAZIO
 Prioridade alta,
@@ -342,7 +342,7 @@ TCC10_ORDENAR_POR_PRECO
 Prioridade baixa, a função está funcionando perfeitamente.
 
 TCC11_CHECKOUT
-Prioridade baixa, a função está funcionando perfeitamente.
+Prioridade alta, é nele que o usuário vai finalizar seu pedido.
 
 TCC12_CHECKOUT_COM_NOME
 Prioridade baixa, a função está funcionando perfeitamente.
@@ -357,8 +357,7 @@ Prioridade baixa, a função está funcionando perfeitamente.
 Não permite o usuário finalizar o pedido sem preencher os campos.
 
 TCC15_CHECKOUT_COM_CARRINHO_VAZIO
-Prioridade baixa, por mais que função esteja finalizando o pedido com o carrinho vazio,
-não prejudica em nada nas vendas.
+Prioridade alta, o cliente pode pensar que finalizou um pedido pois não recebeu uma mensagem de erro
 
 TCC16_CHECKOUT_VAZIO
 Prioridade baixa, a função está funcionando perfeitamente.

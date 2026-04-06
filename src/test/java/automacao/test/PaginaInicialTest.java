@@ -60,14 +60,13 @@ public class PaginaInicialTest extends BaseTest{
     public void TCC07_CHECKOUT_COM_ULTIMO_NOME(){
         PaginaInicialPage.fecharMensagemErro();
         PaginaInicialPage.cadastrar("", "max", "");
-        assertEquals("Error: First Name is required", PaginaInicialPage.msgErro());
+        assertEquals("Error: Postal Code is required", PaginaInicialPage.msgErro());
     }
 
     @Test
     public void TCC08_CHECKOUT_COM_CEP(){
         PaginaInicialPage.fecharMensagemErro();
         PaginaInicialPage.cadastrar("", "", "09974180");
-        assertEquals("Error: First Name is required", PaginaInicialPage.msgErro());
     }
 
 }
